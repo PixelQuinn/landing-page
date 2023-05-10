@@ -41,21 +41,26 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
 }
+
+.intro-text {
+    flex: 1;
+    margin-right: 20px;
+  }  
 
 .intro {
     font-size: 36px;
     color: #f9faf8;
     font-weight: 800;
-    flex: 1;
-    order: 1;
+    margin: 0;
 }
 
 .sub-intro {
     font-size: 18px;
     color: #e5e7eb;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .image-container {
@@ -67,3 +72,13 @@
 .image-container img {
     max-width: 100%;
 }
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
