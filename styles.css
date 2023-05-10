@@ -5,96 +5,65 @@
     background-color: #1f2937;
     margin-bottom: 0;
     padding-bottom: 0;
-  }
-  
-  .site-header .wrapper {
+}
+
+.site-header .wrapper {
     display: flex;
     align-items: center;
     width: 100%;
-  }
-  
-  #header-logo {
+}
+
+#header-logo {
     font-size: 24px;
     color: #f9faf8;
-    justify-items: start;
     margin-right: auto;
     margin-left: 50px;
-  }
-  
-  .nav-button a {
+}
+
+.nav-button a {
     margin: 10px;
     justify-items: end;
     color: #e5e7eb;
     margin-right: 50px;
     text-decoration: none;
     font-size: 18px;
-  }
-  
-  .intro-container {
+}
+
+.intro-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-    padding-top: 0;
-    margin-top: -1px;
-  }
-  
-  .intro {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 800;
-  }
-  
-  .sub-intro {
-    font-size: 18px;
-    color: #e5e7eb;
-  }
-  
-  .header-intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1f2937;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-  
-  .header-intro .header {
+}
+
+.intro-row {
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  
-  .header-intro .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .header-intro .header #header-logo {
-    font-size: 24px;
-    color: #f9faf8;
-    justify-items: start;
-    margin-right: auto;
-    margin-left: 50px;
-  }
-  
-  .header-intro .header .nav-button a {
-    margin: 10px;
-    justify-items: end;
-    color: #e5e7eb;
-    margin-right: 50px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .header-intro .intro .intro {
-    font-size: 48px;
+    justify-content: center;
+}
+
+.intro {
+    font-size: 36px;
     color: #f9faf8;
     font-weight: 800;
-  }
-  
-  .header-intro .intro .sub-intro {
+    flex: 1;
+    order: 1;
+}
+
+.sub-intro {
     font-size: 18px;
     color: #e5e7eb;
-  }
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    margin-left: 20px;
+    flex: 1;
+    order: 2;
+}
+
+.image-container img {
+    max-width: 100%;
+}
