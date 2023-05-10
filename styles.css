@@ -18,10 +18,13 @@
     color: #f9faf8;
     justify-items: start;
     margin-right: auto;
+    margin-left: 50px;
 }
 
-.nav-button {
+.nav-button a {
     margin: 10px;
     justify-items: end;
     color: #e5e7eb;
+    margin-right: 50px;
+    text-decoration: none;
 }
