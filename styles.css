@@ -159,3 +159,47 @@
     font-weight: 800;
     margin-left: 500px;
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .banner-content {
+    flex: 1;
+    margin-right: 20px;
+    color: #f9f9f9;
+  }
+  
+  .banner p {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .banner-button {
+    background-color: #3882f6;
+    color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
