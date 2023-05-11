@@ -133,3 +133,29 @@
     font-size: 16px;
     text-align: center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    border-left: 10px solid #ccc;
+    color: #1f2937;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 1.5;
+  }
+  
+  .quote p:first-child {
+    margin-bottom: 10px;
+  }
+  
+  .quote-author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 500px;
+  }
