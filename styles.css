@@ -5,75 +5,75 @@
     background-color: #1f2937;
     margin-bottom: 0;
     padding-bottom: 0;
-}
-
-.site-header .wrapper {
+  }
+  
+  .site-header .wrapper {
     display: flex;
     align-items: center;
     width: 100%;
-}
-
-#header-logo {
+  }
+  
+  #header-logo {
     font-size: 24px;
     color: #f9faf8;
     margin-right: auto;
     margin-left: 50px;
-}
-
-.nav-button a {
+  }
+  
+  .nav-button a {
     margin: 10px;
     justify-items: end;
     color: #e5e7eb;
     margin-right: 50px;
     text-decoration: none;
     font-size: 18px;
-}
-
-.intro-container {
+  }
+  
+  .intro-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-}
-
-.intro-row {
+  }
+  
+  .intro-row {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
-}
-
-.intro-text {
+  }
+  
+  .intro-text {
     flex: 1;
     margin-right: 20px;
   }  
-
-.intro {
-    font-size: 36px;
+  
+  .intro {
+    font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
     margin: 0;
-}
-
-.sub-intro {
+  }
+  
+  .sub-intro {
     font-size: 18px;
     color: #e5e7eb;
     text-align: center;
     margin: 20px 0;
-}
-
-.image-container {
+  }
+  
+  .image-container {
     margin-left: 20px;
     flex: 1;
     order: 2;
-}
-
-.image-container img {
+  }
+  
+  .image-container img {
     max-width: 100%;
-}
-
-.sign-up-button {
+  }
+  
+  .sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
@@ -82,38 +82,44 @@
     border-radius: 5px;
     cursor: pointer;
   }
-
+  
   .information-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100%;
   }
   
   .info-row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   .info-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
   }
   
-  .info-text p {
-    margin: 0;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 18px;
+  .random-info {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
   }
   
   .subtext-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .image-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin-right: 10px;
   }
   
